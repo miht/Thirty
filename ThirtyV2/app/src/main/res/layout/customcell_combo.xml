@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/tv_comboname"
+        android:layout_width="45dp"
+        android:layout_height="35dp"
+        android:gravity="center"
+
+        android:text="Low"
+        android:textSize="24sp">
+
+    </TextView>
+
+    <Space
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_weight="0" />
+
+    <LinearLayout
+        android:id="@+id/ll_combodie"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_weight="0"
+        android:gravity="center"
+        android:orientation="horizontal" />
+
+    <Space
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_weight="0" />
+
+    <TextView
+        android:id="@+id/tv_combopoints"
+        android:layout_width="45dp"
+        android:layout_height="35dp"
+
+        android:gravity="center"
+        android:text="14"
+        android:textSize="24sp">
+
+    </TextView>
+
+</LinearLayout>

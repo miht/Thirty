@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+            android:text="Unused combinations"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="35dp"
+                android:gravity="center"
+
+                android:text="Combo"
+                android:textSize="14sp">
+
+            </TextView>
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_weight="0" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="25dp"
+                android:layout_weight="0"
+                android:gravity="center"
+                android:text="Sequence"
+                android:textSize="14sp" />
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_weight="0" />
+
+            <TextView
+                android:layout_width="45dp"
+                android:layout_height="35dp"
+
+                android:gravity="center"
+                android:text="Points"
+                android:textSize="14sp">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_unusedcombos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+
+            android:text="Used combinations"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            />
+
+        <LinearLayout
+            android:id="@+id/ll_header_used"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="35dp"
+                android:gravity="center"
+
+                android:text="Combo"
+                android:textSize="14sp">
+
+            </TextView>
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_weight="0" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="25dp"
+                android:layout_weight="0"
+                android:gravity="center"
+                android:text="Sequence"
+                android:textSize="14sp" />
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_weight="0" />
+
+            <TextView
+                android:layout_width="45dp"
+                android:layout_height="35dp"
+
+                android:gravity="center"
+                android:text="Points"
+                android:textSize="14sp">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_usedcombos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        </LinearLayout>
+    </LinearLayout>
